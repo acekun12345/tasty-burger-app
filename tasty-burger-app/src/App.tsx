@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
-import BurgerCard, { BurgerItem } from './components/BurgerCard';
+import Navbar from './components/Navbar.tsx';
+import BurgerCard, { type BurgerItem } from './components/BurgerCard.tsx';
 import './App.css';
 
 interface CartEntry {
